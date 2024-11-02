@@ -6,10 +6,6 @@ import 'package:spotify/core/configs/assets/app_vectors.dart';
 import 'package:spotify/core/configs/theme/app_colors.dart';
 import 'package:spotify/presentation/choose_mode/pages/choose_mode.dart';
 
-
-
-
-
 class GetStartedPage extends StatelessWidget {
   const GetStartedPage({super.key});
 
@@ -72,16 +68,10 @@ class GetStartedPage extends StatelessWidget {
                   const SizedBox(height: 20,),
                   BasicAppButton(
                     onPressed: () {
-
-
-
-
                       Navigator.push(
                         context,
                         MaterialPageRoute(
                           builder: (BuildContext context) => const ChooseModePage()
-                          
-
                         )
                      );
                     },
