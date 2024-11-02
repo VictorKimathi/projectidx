@@ -1,4 +1,4 @@
-# projectidx
+# spotify
 
 A new Flutter project.
 
